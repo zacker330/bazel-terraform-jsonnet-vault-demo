@@ -34,6 +34,8 @@ resource "vault_generic_secret" "example1" {
 }
 ```
 ### jsonnet file
+* jsonnet main.tf.jsonnet > main.tf.json
+* terraform apply
 ```jsonnet
 {
     provider: {
