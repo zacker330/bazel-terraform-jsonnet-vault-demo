@@ -1,0 +1,23 @@
+{
+   "provider": {
+      "vault": {
+         "address": "http://127.0.0.1:8200"
+      }
+   },
+   "resource": {
+      "vault_generic_secret": [
+         {
+            "example": {
+               "data_json": "{\"a\":12}",
+               "path": "secret/foo"
+            }
+         },
+         {
+            "example1": {
+               "data_json": "{\"a\": \"a\"}",
+               "path": "secret/abc"
+            }
+         }
+      ]
+   }
+}
